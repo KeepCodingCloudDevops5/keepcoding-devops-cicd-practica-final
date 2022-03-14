@@ -16,7 +16,7 @@ Los requerimentos que nos ha dado ACME son los siguientes:
 - Además ACME también quiere revisar cada 10 minutos que el contenido que hay en cada una de las unidades de almacenamiento no supera los 20MiB. Si esto pasa, se vaciarán las unidades de almacenamiento
 - ACME lleva usando Jenkins mucho tiempo pero está actualmente abriéndose a probar nuevas teconologías con menor coste de gestión como Github Actions. Es por esto que también se requiere un pipeline de github actions para el despliegue de la unidad de almacenamiento, de modo que ACME pueda comparar ambas tecnologías
 
-Entregables:
+### Entregables
 - Proyecto terraform para la creación de la unidad de almacenamiento
 - Makefile que usaran los desarrolladores para despliegue en local. README con instrucciones para desarrolladores
 - Dockerfile del agente que se usará para correr el job
