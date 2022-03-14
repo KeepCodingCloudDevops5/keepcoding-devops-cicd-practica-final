@@ -18,6 +18,8 @@ Los requerimentos que nos ha dado ACME son los siguientes:
 
 ### Entregables
 
+> A continuación se describen los entregables que se tendrán en cuenta para evaluar la práctica. Lo más típico es que entregues todos juntos en un mismo proyecto de GitHub
+
 - Proyecto terraform para la creación de la unidad de almacenamiento
 - Makefile que usaran los desarrolladores para despliegue en local. README con instrucciones para desarrolladores
 - Dockerfile del agente que se usará para correr el job
