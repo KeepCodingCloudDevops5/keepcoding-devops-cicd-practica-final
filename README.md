@@ -17,12 +17,13 @@ Los requerimentos que nos ha dado ACME son los siguientes:
 - ACME lleva usando Jenkins mucho tiempo pero está actualmente abriéndose a probar nuevas teconologías con menor coste de gestión como Github Actions. Es por esto que también se requiere un pipeline de github actions para el despliegue de la unidad de almacenamiento, de modo que ACME pueda comparar ambas tecnologías
 
 ### Entregables
+
 - Proyecto terraform para la creación de la unidad de almacenamiento
 - Makefile que usaran los desarrolladores para despliegue en local. README con instrucciones para desarrolladores
 - Dockerfile del agente que se usará para correr el job
 - Job DSL que correrá Jenkins para crear el job de despliegue
 - Jenkinsfile del job de despliegue. El mismo job desplegará en dev y en prod si se cumplen ciertas condiciones
-- Fichero yaml con el pipeline de Github Actions para el despliegue
+- Fichero `yaml` con el pipeline de Github Actions para el despliegue
 - Job DSL que correrá Jenkins para crear el job de chequeo de almacenamiento
 - Jenkinsfile del job de chequeo de almacenamiento
-- README general explicando el proyecto y las decisiones de diseño tomadas. Explicar el porqué, sus beneficios y sus inconvenientes
+- README general explicando el proyecto y las decisiones de diseño tomadas. Explicar el porqué de las mismas, sus beneficios y sus inconvenientes
