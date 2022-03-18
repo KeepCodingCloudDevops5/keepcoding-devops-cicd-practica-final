@@ -22,7 +22,7 @@ Los requerimentos que nos ha dado ACME son los siguientes:
 
 - Proyecto terraform para la creación de la unidad de almacenamiento
 - Makefile que usaran los desarrolladores para despliegue en local. README con instrucciones para desarrolladores
-- Dockerfile del agente que se usará para correr el job
+- Dockerfile del agente que se usará para correr los jobs
 - Job DSL que correrá Jenkins para crear el job de despliegue
 - Jenkinsfile del job de despliegue. El mismo job desplegará en dev y en prod si se cumplen ciertas condiciones
 - Fichero `yaml` con el pipeline de Github Actions para el despliegue
